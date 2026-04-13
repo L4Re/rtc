@@ -2,6 +2,7 @@ PKGDIR		?= ../..
 L4DIR		?= $(PKGDIR)/../..
 
 TARGET		= rtc
+VARIANTS        = std
 SRC_CC_x86-l4f   = x86.cc
 SRC_CC_amd64-l4f = x86.cc
 SRC_CC_arm-l4f   = pl031.cc
